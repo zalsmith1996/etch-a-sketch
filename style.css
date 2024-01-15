@@ -13,6 +13,7 @@ body {
 header {
     margin: 20px;
 }
+
 .container {
     border-color: aqua;
     border-style: solid;
@@ -27,6 +28,10 @@ header {
 .container div {
     flex-grow: 1;
     min-width: calc(100%/16);
-    background-color: white;
+    background-color: aqua;
+}
+
+.erase {
+    margin: 20px;
 }
 
